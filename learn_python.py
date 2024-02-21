@@ -41,4 +41,5 @@ def get_rate(in_genre):
     where_genre = df.index[df['genre'] == in_genre].tolist()
     return df.loc[where_genre, 'ave_rating']
 
+## change1
 
